@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Rastreador COVID-19</title>
+  
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/index.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="https://www.gov.br/saude/pt-br/coronavirus/o-que-e-o-coronavirus"  target="_blank" rel="noopener noreferrer" class="logo">
+        <img src="./assets/images/logo.svg" width="199" height="50" alt="Covid-19 home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Início</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>Sobre</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#symptoms" class="navbar-link" data-nav-link>Sintomas</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#prevention" class="navbar-link" data-nav-link>Prevenção</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contato</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu"></ion-icon>
+        <ion-icon name="close-outline" aria-hidden="true" class="close"></ion-icon>
+      </button>
+
+      <a href="#doctor" class="btn btn-primary">Você está doente ?</a>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" id="home" style="background-image: url('./assets/images/hero-bg.jpg')"
+        aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">COVID-19</h1>
+
+            <p class="hero-text">
+              Casos Corona confirmados em Natal
+            </p>
+
+            <data class="counter" value="960708">960708</data>
+
+            <ul class="hero-list">
+
+              <li class="hero-list-item yellow">
+                Casos ativos <span class="span">799571</span>
+              </li>
+
+              <li class="hero-list-item green">
+                Casos recuperados <span class="span">302826</span>
+              </li>
+
+              <li class="hero-list-item red">
+                Mortes <span class="span">52558</span>
+              </li>
+
+            </ul>
+
+            <a href="#doctor" class="btn btn-primary">Conheça o médico</a>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="570" height="562" alt="corona virus" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-labelledby="about-label-1">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner-1.png" width="540" height="540" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="about-subtitle" id="about-label-1">Como o vírus se espalha</p>
+
+            <h2 class="h2 section-title">Como o contágio do coronavírus</h2>
+
+           
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <figure class="item-img img-holder" style="--width: 80; --height: 80;">
+                  <img src="./assets/images/about-1-1.jpg" width="80" height="80" loading="lazy" alt="Human Contact">
+                </figure>
+
+                <div class="item-content">
+                  <h3 class="h4 item-title">Contato humano</h3>
+
+                  <p class="item-text text">
+                    Embora menos comum, o vírus também pode ser encontrado nas fezes de pessoas infectadas. A contaminação pode ocorrer quando as mãos são mal lavadas após o uso do banheiro e, em seguida, tocam a boca ou a face.
+                   
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <figure class="item-img img-holder" style="--width: 80; --height: 80;">
+                  <img src="./assets/images/about-1-2.jpg" width="80" height="80" loading="lazy" alt="Air Transmission">
+                </figure>
+
+                <div class="item-content">
+                  <h3 class="h4 item-title">Transmissão Aérea</h3>
+
+                  <p class="item-text text">
+                    Gotículas respiratórias: Quando uma pessoa infectada com o vírus tosse, espirra, fala, canta ou respira, pequenas gotículas líquidas que contêm o vírus podem ser liberadas no ar. Se uma pessoa saudável inala essas gotículas ou entra em contato direto com elas, pode ser infectada.
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <figure class="item-img img-holder" style="--width: 80; --height: 80;">
+                  <img src="./assets/images/about-1-3.jpg" width="80" height="80" loading="lazy"
+                    alt="Contaminated Objects">
+                </figure>
+
+                <div class="item-content">
+                  <h3 class="h4 item-title">Objetos Contaminados</h3>
+
+                  <p class="item-text text">
+                    O vírus pode sobreviver em superfícies por várias horas ou até mesmo dias, dependendo do material. Se uma pessoa toca uma superfície contaminada e depois toca o rosto, especialmente os olhos, nariz ou boca, pode introduzir o vírus em seu corpo.
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service has-bg-image" id="symptoms" style="background-image: url('./assets/images/service-bg.jpg')"
+        aria-labelledby="service-label-1">
+        <div class="container">
+
+          <h2 class="h2 section-title" id="service-label-1">Sintomas do coronavírus</h2>
+
+          <p class="section-text text">
+            Os sintomas mais comuns da COVID-19 incluem febre ou calafrios, tosse seca, falta de
+             ar ou dificuldade em respirar, fadiga, dores musculares ou corporais, dor de cabeça,
+              garganta inflamada, perda do paladar ou olfato (anosmia), congestão nasal ou corrimento 
+              nasal, náuseas ou vômitos, e diarreia.
+          </p>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner img-holder" style="--width: 110; --height: 110;">
+                  <img src="./assets/images/service-1-1.jpg" width="110" height="110" loading="lazy"
+                    alt="service image">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">Tossindo e espirrando</h3>
+
+                  <p class="card-text text">
+                    Tossir e espirrar são ações normais do sistema respiratório,
+                     mas em certos contextos, como durante uma pandemia de COVID-19, esses 
+                     comportamentos podem ser preocupantes, pois podem contribuir para a disseminação do vírus.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner img-holder" style="--width: 110; --height: 110;">
+                  <img src="./assets/images/service-1-2.jpg" width="110" height="110" loading="lazy"
+                    alt="service image">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">Febre quente</h3>
+
+                  <p class="card-text text">
+                    Quando alguém se refere a uma "febre quente", geralmente está descrevendo a sensação de 
+                    calor e desconforto que pode acompanhar uma febre. A febre em si não tem uma temperatura
+                     específica que a caracterize como "quente" ou "fria".
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner img-holder" style="--width: 110; --height: 110;">
+                  <img src="./assets/images/service-1-3.jpg" width="110" height="110" loading="lazy"
+                    alt="service image">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">Forte dor de cabeça</h3>
+
+                  <p class="card-text text">
+                    Uma forte dor de cabeça, também conhecida como cefaleia severa, pode ser uma 
+                    experiência angustiante e pode ter diversas causas prejudiciais à sua saúde.
+                     Essas dores de cabeça intensas podem ser desencadeadas 
+                     por diversas condições médicas.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner img-holder" style="--width: 110; --height: 110;">
+                  <img src="./assets/images/service-1-4.jpg" width="110" height="110" loading="lazy"
+                    alt="service image">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">Falta de ar</h3>
+
+                  <p class="card-text text">                 
+                   A sensação de falta de ar, também conhecida como dispneia, é um sintoma que pode
+                    ser causado por diversas condições médicas. Ela ocorre quando você sente que não
+                     está conseguindo respirar adequadamente ou não está recebendo ar o suficiente.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner img-holder" style="--width: 110; --height: 110;">
+                  <img src="./assets/images/service-1-5.jpg" width="110" height="110" loading="lazy"
+                    alt="service image">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">Confusão</h3>
+
+                  <p class="card-text text">
+                    A confusão é um estado mental complexo caracterizado pela perda temporária ou pela
+                     diminuição da clareza cognitiva e da capacidade de compreensão das informações 
+                     ou situações. Ela pode manifestar por vários elementos físicos e psicológicos.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner img-holder" style="--width: 110; --height: 110;">
+                  <img src="./assets/images/service-1-6.jpg" width="110" height="110" loading="lazy"
+                    alt="service image">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">Dor de garganta</h3>
+
+                  <p class="card-text text">
+                   
+                  A dor de garganta é um sintoma frequentemente experimentado por 
+                  pessoas de todas as idades e geralmente está relacionada a condições 
+                  que afetam a região da garganta e suas áreas circundantes, incluindo as
+                   amígdalas, faringe e laringe. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="prevention" aria-labelledby="about-label-2">
+        <div class="container">
+
+          <figure class="about-banner order-1">
+            <img src="./assets/images/about-banner-2.png" width="540" height="540" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="about-subtitle" id="about-label-2">Sobre (2020-nCoV)</p>
+
+            <h2 class="h2 section-title">Prevenção Coronavírus</h2>
+
+            <p class="section-text text">
+              A prevenção do coronavírus, especificamente o SARS-CoV-2 que causa a COVID-19, é fundamental para reduzir a disseminação da doença.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <figure class="item-img img-holder" style="--width: 80; --height: 80;">
+                  <img src="./assets/images/about-2-1.jpg" width="80" height="80" loading="lazy"
+                    alt="Wash Your Hands For 20sec">
+                </figure>
+
+                <div class="item-content">
+                  <h3 class="h4 item-title">Lave as mãos por 20 segundos</h3>
+
+                  <p class="item-text text">
+                    Lavar as mãos por 20 segundos é uma das práticas mais importantes para a higiene 
+                    das mãos e uma medida eficaz na prevenção da propagação de germes, incluindo vírus 
+                    como o SARS-CoV-2, que causa a COVID-19.
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <figure class="item-img img-holder" style="--width: 80; --height: 80;">
+                  <img src="./assets/images/about-2-2.jpg" width="80" height="80" loading="lazy"
+                    alt="Cover Nose and Mouth When Sneezing">
+                </figure>
+
+                <div class="item-content">
+                  <h3 class="h4 item-title">Cubra nariz e boca ao espirrar</h3>
+
+                  <p class="item-text text">
+                    Cobrir o nariz e a boca ao espirrar é uma prática fundamental para evitar a propagação
+                     de germes, incluindo vírus como o SARS-CoV-2, que causa a COVID-19, e proteger outras
+                      pessoas ao seu redor. 
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <figure class="item-img img-holder" style="--width: 80; --height: 80;">
+                  <img src="./assets/images/about-2-3.jpg" width="80" height="80" loading="lazy"
+                    alt="Wear A Mask If Available">
+                </figure>
+
+                <div class="item-content">
+                  <h3 class="h4 item-title">Use uma máscara, se disponível</h3>
+
+                  <p class="item-text text">
+                    Usar uma máscara, se disponível, é uma das medidas mais importantes 
+                    para prevenir a propagação de doenças infecciosas, principalmente em 
+                    tempos de surtos, como foi a pandemia de COVID-19. 
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #DOCTOR
+      -->
+
+      <section class="section doctor"  id="doctor"  style="background-image: url('./assets/images/service-bg.jpg')"
+        aria-labelledby="doctor-label">
+        <div class="container">
+
+          <h2 class="h2 section-title" id="doctor-label">Conheça nossos melhores médicos</h2>
+
+          <p class="section-text text">
+            Nossa equipe médica é formada por especialistas altamente qualificados e 
+            dedicados a proporcionar o melhor atendimento e cuidado para você e sua família. 
+            Com anos de experiência e expertise em diversas 
+            áreas da medicina, nossos médicos estão prontos para oferecer 
+            soluções de saúde personalizadas e eficazes.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="doctor-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 360;">
+                  <img src="./assets/images/doctor-1.jpg" width="350" height="360" loading="lazy"
+                    alt="Dorothy M. Nickell profile" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4 card-title">Doutora Michelle</h3>
+
+                  <p class="card-subtitle">Especialista em garganta</p>
+
+                  <p class="card-text text">
+                    Doutora Michelle é uma renomada especialista em 
+                    garganta, com vasta experiência e conhecimento em 
+                    diagnosticar e tratar uma ampla gama de condições 
+                    relacionadas à saúde da garganta
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <div class="icon-box">
+                        <ion-icon name="call" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <span class="span">+11 99746-7363</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="icon-box">
+                        <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <span class="span">d.michelle@gmail.com</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="doctor-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 360;">
+                  <img src="./assets/images/doctor-2.jpg" width="350" height="360" loading="lazy"
+                    alt="Billie R. Courtney profile" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4 card-title">Doutor Leonardo</h3>
+
+                  <p class="card-subtitle">Cardiologista</p>
+
+                  <p class="card-text text">
+                      Um grande Cardiologista com uma carreira dedicada a cuidar do coração de seus pacientes. 
+                     Um especialista em que a sua missão é garantir que seus pacientes desfrutem de
+                     uma saúde cardíaca ótima para a vida.
+                  </p>
+                      
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <div class="icon-box">
+                        <ion-icon name="call" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <span class="span">+11 98273-3846</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="icon-box">
+                        <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <span class="span">d.leonardo@gmail.com</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="doctor-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 360;">
+                  <img src="./assets/images/doctor-3.jpg" width="350" height="360" loading="lazy"
+                    alt="Courtney A. Smith profile" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4 card-title">Doutora Simara</h3>
+
+                  <p class="card-subtitle">Terapia de reabilitação</p>
+
+                  <p class="card-text text">
+                    Doutora Simara é uma terapeuta de reabilitação altamente qualificada e dedicada 
+                    a ajudar seus pacientes, independência e qualidade de vida. Ela é uma profissional 
+                    que busca proporcionar o melhor atendimento aos seus pacientes.
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <div class="icon-box">
+                        <ion-icon name="call" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <span class="span">+11 94758-7359</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="icon-box">
+                        <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <span class="span">c.a.smith@gmail.com</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SAFETY
+      -->
+
+      <section class="section safety" aria-labelledby="safety-label">
+        <div class="container">
+
+          <h2 class="h2 section-title" id="safety-label">Como lavar as mãos</h2>
+
+          <p class="section-text text">
+            Lavar as mãos corretamente é uma das medidas mais eficazes para prevenir a propagação de germes, incluindo vírus, bactérias e outros patógenos
+          </p>
+
+          <ol class="safety-list">
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-1.jpg" width="170" height="170" loading="lazy" alt="Wet Hands"
+                  class="img">
+              </figure>
+
+              <span class="number">1</span>
+
+              <h3 class="h4 item-title">Mãos molhadas</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-2.jpg" width="170" height="170" loading="lazy" alt="Apply Soap"
+                  class="img">
+              </figure>
+
+              <span class="number">2</span>
+
+              <h3 class="h4 item-title">Aplique sabão</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-3.jpg" width="170" height="170" loading="lazy"
+                  alt="Rub Hands Palm to palm" class="img">
+              </figure>
+
+              <span class="number">3</span>
+
+              <h3 class="h4 item-title">Esfregue as mãos palma com palma</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-4.jpg" width="170" height="170" loading="lazy"
+                  alt="Lather The Back of Both Hands" class="img">
+              </figure>
+
+              <span class="number">4</span>
+
+              <h3 class="h4 item-title">Ensaboe as costas de ambas as mãos</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-5.jpg" width="170" height="170" loading="lazy"
+                  alt="Scrub Between Your Fingers" class="img">
+              </figure>
+
+              <span class="number">5</span>
+
+              <h3 class="h4 item-title">Esfregue entre os dedos</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-6.jpg" width="170" height="170" loading="lazy"
+                  alt="Rub The Back of Fingers on The Opposing Palm" class="img">
+              </figure>
+
+              <span class="number">6</span>
+
+              <h3 class="h4 item-title">Esfregue a parte de trás dos dedos na palma da mão oposta</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-7.jpg" width="170" height="170" loading="lazy" alt="Clean Thumbs"
+                  class="img">
+              </figure>
+
+              <span class="number">7</span>
+
+              <h3 class="h4 item-title">Limpe os polegares</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-8.jpg" width="170" height="170" loading="lazy"
+                  alt="Wash Fingernails And Fingertips" class="img">
+              </figure>
+
+              <span class="number">8</span>
+
+              <h3 class="h4 item-title">Lave as unhas e as pontas dos dedos</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-9.jpg" width="170" height="170" loading="lazy" alt="Rinse Hands"
+                  class="img">
+              </figure>
+
+              <span class="number">9</span>
+
+              <h3 class="h4 item-title">Enxaguar as mãos</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-10.jpg" width="170" height="170" loading="lazy"
+                  alt="Dry with a Single Use Towel" class="img">
+              </figure>
+
+              <span class="number">10</span>
+
+              <h3 class="h4 item-title">Seque com uma toalha descartável</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-11.jpg" width="170" height="170" loading="lazy"
+                  alt="Use The Towel to Rurn off The Foucet" class="img">
+              </figure>
+
+              <span class="number">11</span>
+
+              <h3 class="h4 item-title">Use a toalha para sair da torneira</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-12.jpg" width="170" height="170" loading="lazy"
+                  alt="Your Hands Are Clean" class="img">
+              </figure>
+
+              <span class="number">12</span>
+
+              <h3 class="h4 item-title">Suas mãos estão limpas</h3>
+            </li>
+
+          </ol>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-labelledby="blog-lable">
+        <div class="container">
+
+          <h2 class="h2 section-title" id="blog-label">Nosso blog mais popular</h2>
+
+          <p class="section-text text">
+            Bem-vindo ao nosso blog mais popular, onde oferecemos uma jornada empolgante por uma variedade de tópicos envolventes e informativos.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 370; --height: 280;">
+                  <img src="./assets/images/blog-1.jpg" width="370" height="280" loading="lazy"
+                    alt="Conulting Reporting Qouncil Arei Not Could More..." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title">
+                      Fernanda: Protegendo-se e Protegendo os Outros na Luta Contra a COVID-19
+                    </a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="wrapper">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2020-05-16">16 de maio de 2020</time>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="meta-text">Fernanda</p>
+                    </div>
+
+                  </div>
+
+                  <p class="card-text text">
+                    Após uma batalha difícil com a doença, ela agora compartilha sua experiência
+                     para ajudar os outros. Fernanda enfatiza a importância de seguir as diretrizes 
+                     de segurança, como usar máscaras, praticar o distanciamento social e lavar as 
+                     mãos com frequência. Seu conselho é simples: "Proteja-se e proteja os outros. 
+                     Juntos, podemos vencer essa pandemia".
+                  </p>
+
+                </div>
+
+                <div class="card-footer">
+                  <a href="#" class="btn-link">Consulte Mais informação</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 370; --height: 280;">
+                  <img src="./assets/images/blog-2.jpg" width="370" height="280" loading="lazy"
+                    alt="Financial Reporting Qouncil What Could More..." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title">
+                      Julia: Defensora da Vacinação e da Informação Confiável na Luta Contra a COVID-19
+                    </a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="wrapper">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2020-06-18">18 de Junho de 2020</time>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="meta-text">Julia</p>
+                    </div>
+
+                  </div>
+
+                  <p class="card-text text">
+                    Ela incentiva a vacinação, ressaltando a importância de se imunizar para proteger a si mesmo 
+                    e à comunidade. A informação são essenciais, e ela exorta as pessoas a consultarem fontes 
+                    confiáveis para se manterem atualizadas sobre a pandemia. Sua mensagem é:  "A vacina é uma 
+                    ferramenta poderosa para vencer o vírus. Faça sua parte."
+                  </p>
+
+                </div>
+
+                <div class="card-footer">
+                  <a href="#" class="btn-link">Consulte Mais informação</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 370; --height: 280;">
+                  <img src="./assets/images/blog-3.jpg" width="370" height="280" loading="lazy"
+                    alt="Consulting Reporting Qounc Arei Could More..." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title">
+                      Lucas: Um Exemplo de Empatia e Solidariedade na Luta Contra a COVID-19
+                    </a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="wrapper">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2020-08-10">10 de Agosto, 2020</time>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="meta-text">Lucas</p>
+                    </div>
+
+                  </div>
+
+                  <p class="card-text text">
+                    Lucas, após se recuperar da COVID-19, está comprometido em promover a empatia e o
+                     apoio mútuo durante esses tempos desafiadores. Ele incentiva as pessoas a se 
+                     preocuparem não apenas com sua própria saúde, mas também com a saúde dos outros.
+                       Seu conselho é simples, mas poderoso: "Sejamos solidários e responsáveis".
+                  </p>
+
+                </div>
+
+                <div class="card-footer">
+                  <a href="#" class="btn-link">Consulte Mais informação</a>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer has-bg-image" id="contact" style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <h3 class="h4 footer-list-title">Sobre a Covid-19</h3>
+
+          <p class="footer-text text">
+            Acreditamos em padrões de design simples, criativos e flexíveis.
+          </p>
+
+           <br>
+          <h3 class="h4 footer-list-title">Contato</h3>
+
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <p class="contact-title">Telefone:</p>
+
+              <a href="https://api.whatsapp.com/send?phone=5511953357757&text=Quero%20um%20site%20igual%20esse%20da%20do%20rastreador%20COVID%20-%2019"  target="_blank" rel="noopener noreferrer" class="text">(+55) 11 95335-7757</a>
+            </li>
+
+            <li class="contact-item">
+              <p class="contact-title">Email:</p>
+
+              <a href="#" class="text">rastreadorcovid-19@gmail.com</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <h3 class="h4 footer-list-title">Navegar</h3>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Anunciantes</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Desenvolvedores</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Recursos</a>
+          </li>
+          
+          <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Empresa</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Conectar</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list social-list">
+
+          <li>
+            <h3 class="h4 footer-list-title">Contato social</h3>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Facebook</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Twitter</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Instagram</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">YouTube</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-xing" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Xing</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <h3 class="h4 footer-list-title">Privacidade e Termos</h3>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Contrato do Anunciante</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Política de uso aceitável</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Política de Privacidade</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Privacidade tecnológica</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Contrato do desenvolvedor</a>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy;  Direitos Reservados - Miquéias Silva
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/index.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
